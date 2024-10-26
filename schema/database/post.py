@@ -15,3 +15,6 @@ class Post(PostBase):
 
     class Config:
         orm_mode = True
+
+class PostUpdate(PostBase):
+    pass
